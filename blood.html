@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BloodChain: Lifeline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-red-50">
+    <header class="bg-red-600 text-white py-4 flex justify-between items-center shadow-md sticky top-0 z-10 rounded-md">
+      <div class="logo text-xl font-bold ml-4">
+        <img src="https://placehold.co/50x50/EEE/31343C" alt="BloodChain Logo" class="rounded-full inline-block mr-2">
+        BloodChain: Lifeline
+      </div>
+      <nav class="mr-4">
+        <ul class="flex space-x-4">
+          <li><a href="#features" class="hover:text-red-200 no-underline">Features</a></li>
+          <li><a href="#how-it-works" class="hover:text-red-200 no-underline">How It Works</a></li>
+          <li><a href="#contact" class="hover:text-red-200 no-underline">Contact</a></li>
+          <li><a href="#donate" class="hover:text-red-200 no-underline">Donate Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero bg-red-50 text-gray-800 text-center py-20 px-4 rounded-md">
+      <h1 class="text-3xl font-bold mb-4">Connecting Lives, Saving Futures</h1>
+      <p class="text-lg mb-8">A Blockchain-Based Platform for Blood Donation</p>
+      <button onclick="window.location.href='#donate'" class="bg-red-600 text-white py-3 px-6 rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 font-semibold">Donate Blood, Save a Life</button>
+    </section>
+
+    <section id="features" class="section bg-white py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-red-700">Key Features</h2>
+      <div class="feature-grid grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="feature-card bg-red-50 p-6 rounded-lg shadow-md flex flex-col justify-between">
+          <img src="https://placehold.co/100x100/EEE/31343C" alt="Real-time Matching" class="rounded-full mb-4 mx-auto">
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Real-time Matching</h3>
+          <p class="text-gray-700">Connects patients with nearby donors instantly.</p>
+        </div>
+        <div class="feature-card bg-red-50 p-6 rounded-lg shadow-md flex flex-col justify-between">
+          <img src="https://placehold.co/100x100/EEE/31343C" alt="Smart Alerts" class="rounded-full mb-4 mx-auto">
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Smart Alerts</h3>
+          <p class="text-gray-700">Notifies donors of urgent requests and nearby drives.</p>
+        </div>
+        <div class="feature-card bg-red-50 p-6 rounded-lg shadow-md flex flex-col justify-between">
+          <img src="https://placehold.co/100x100/EEE/31343C" alt="Secure Transactions" class="rounded-full mb-4 mx-auto">
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Secure Transactions</h3>
+          <p class="text-gray-700">Ensures transparency and trust with blockchain.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section bg-red-50 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-red-700">How It Works</h2>
+      <div class="process-steps flex flex-col md:flex-row justify-center items-center max-w-6xl mx-auto">
+        <div class="step-card bg-white p-6 rounded-lg shadow-md m-4 flex flex-col items-center">
+          <span class="step-number bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center mb-4">1</span>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Register</h3>
+          <p class="text-gray-700 text-center">Create a secure profile as a donor or patient.</p>
+        </div>
+        <div class="step-card bg-white p-6 rounded-lg shadow-md m-4 flex flex-col items-center">
+          <span class="step-number bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center mb-4">2</span>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Match</h3>
+          <p class="text-gray-700 text-center">Get matched with nearby donors or patients in need.</p>
+        </div>
+        <div class="step-card bg-white p-6 rounded-lg shadow-md m-4 flex flex-col items-center">
+          <span class="step-number bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center mb-4">3</span>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Donate/Receive</h3>
+          <p class="text-gray-700 text-center">Connect and complete the donation process securely.</p>
+        </div>
+        <div class="step-card bg-white p-6 rounded-lg shadow-md m-4 flex flex-col items-center">
+          <span class="step-number bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center mb-4">4</span>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Save Lives</h3>
+          <p class="text-gray-700 text-center">Your contribution makes a life-saving difference.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-white py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-red-700">Contact Us</h2>
+      <p class="text-lg text-gray-700 mb-4">Get in touch for any inquiries or support.</p>
+      <p class="text-lg text-red-600 font-semibold">Email: support@bloodchain.com</p>
+      <p class="text-lg text-red-600 font-semibold">Phone: +1-555-123-4567</p>
+    </section>
+
+    <section id="donate" class="section bg-red-50 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-red-700">Donate Now</h2>
+      <p class="text-lg text-gray-700 mb-8">Your blood donation can save a life. Join our community of lifesavers.</p>
+      <button onclick="window.location.href='#'" class="bg-red-600 text-white py-3 px-6 rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 font-semibold text-lg">Donate Blood, Save a Life</button>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4 text-center rounded-md">
+      <p>© 2024 BloodChain: Lifeline. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
